@@ -28,9 +28,10 @@ Postman
 }
 
 ## Application run and test:
-Unzip congestion-tax-calculator.
-Open terminal and change directory to congestion-tax-calculator\target
-Run this command, java -jar target/congestion-tax-calculator-0.0.1-SNAPSHOT.jar
+Clone the repo.
+Run mvn package.
+Change directory to congestion-tax-calculator\target
+Run java -jar target/congestion-tax-calculator-0.0.1-SNAPSHOT.jar
 Use Postman to send Request body.
 
 ## Improvement and changes done:
